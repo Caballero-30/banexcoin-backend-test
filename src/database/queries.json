@@ -1,0 +1,6 @@
+{
+  "Insert": "SELECT InsertClient($1, $2, $3, $4, $5)",
+  "Select": "SELECT * FROM client",
+  "SelectOne": "SELECT * FROM client WHERE id  = $1",
+  "Update": "SELECT UpdateClient($1, $2, $3, $4, $5, $6)"
+}
